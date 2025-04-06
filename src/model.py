@@ -16,7 +16,7 @@ from sklearn.ensemble import RandomForestClassifier
 warnings.filterwarnings('ignore')
 
 # Load dataset
-df = pd.read_csv('dataset.csv')
+df = pd.read_csv('.\\dataset\\dataset.csv')
 
 # Drop unnecessary columns
 if 'id' in df.columns:
